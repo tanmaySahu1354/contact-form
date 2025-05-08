@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0e9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields div {
+    flex: 1;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 15px 0;
+}
+
+.radio-group label {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+
+.radio-group input[type="radio"], .checkbox input[type="checkbox"] {
+    accent-color: #0b7c59;
+}
+
+.radio-group label:hover {
+    border-color: #0b7c59;
+    background-color: #f0f8f5;
+}
+
+/* Selected radio box styling */
+.radio-group label.selected {
+    border-color: #0b7c59;
+    background-color: #e6f5ef;
+    font-weight: bold;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+button {
+    background-color: #0b7c59;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #096b4d;
+}
+
+
+@media (max-width: 600px) {
+    .name-fields {
+        flex-direction: column;
+    }
+
+    .radio-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    input[type="text"] {
+        width: 100%; /* For mobile, allow the text fields to take full width */
+    }
+}
