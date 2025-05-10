@@ -1,59 +1,47 @@
-📬 Contact Form
-This is a responsive and user-friendly contact form built as part of a Frontend Mentor challenge. It includes real-time validation, clean layout, and full mobile responsiveness.
+## 📬 Contact Form
 
-📁 Project Overview
-Built with HTML, CSS, and vanilla JavaScript
+A responsive contact form built as part of the Frontend Mentor Contact Form Challenge. Includes real-time validation, error feedback, and clean design.
 
-Validates inputs with red/green feedback
+## 📁 Project Overview
 
-Highlights selected radio options
+- Uses **HTML, CSS, and JavaScript**
+- Red border validation for empty/invalid fields
+- Green highlight for selected radio buttons
+- Fully responsive on desktop and mobile
+- Designed for form handling and validation practice
 
-Mobile-first and fully responsive
+## 🛠️ Technologies Used
 
-Clean UI with smooth UX interactions
+- HTML5
+- CSS3 (Flexbox, media queries)
+- JavaScript (DOM handling and validation)
 
-🛠️ Technologies Used
-HTML5
+## 📂 Folder Structure
 
-CSS3 (Flexbox, media queries)
-
-JavaScript (DOM handling & form validation)
-
-🖼️ Preview
-Contact form with:
-
-First name / last name inputs
-
-Email field
-
-Query type radio buttons
-
-Consent checkbox
-
-Submit button
-
-📂 Folder Structure
-css
-Copy
-Edit
+```
 contact-form/
 ├── index.html
 ├── style.css
 ├── script.js
 └── assets/
     ├── logo.png
-    ├── sun-icon.png
-    └── moon-icon.png
-🚀 How to Use
-bash
-Copy
-Edit
-git clone https://github.com/tanmaySahu1354/contact-form.git
-Open index.html in your browser. You're good to go!
+    ├── moon-icon.png
+    └── sun-icon.png
+```
 
-✍️ Author
-Made with 💛 by Tanmay Sahu
+## 🚀 How to Use
 
-🎨 Design Credit
-Based on the Frontend Mentor Contact Form Challenge.
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/tanmaySahu1354/contact-form.git
+   ```
+2. Open the folder in your code editor.
+3. Open `index.html` in a browser — that’s it!
 
+## ✍️ Author
+
+Made with 💛 by **Tanmay Sahu**
+
+## 🎨 Design Credit
+
+Based on the [Frontend Mentor Contact Form Challenge](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj)
