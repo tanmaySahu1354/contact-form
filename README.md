@@ -1,35 +1,59 @@
-# 📬 Contact Form - Frontend Mentor Challenge
+📬 Contact Form
+This is a responsive and user-friendly contact form built as part of a Frontend Mentor challenge. It includes real-time validation, clean layout, and full mobile responsiveness.
 
-This is a responsive contact form built as part of the [Frontend Mentor Contact Form Challenge](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj).
+📁 Project Overview
+Built with HTML, CSS, and vanilla JavaScript
 
----
+Validates inputs with red/green feedback
 
-## ✅ Features
+Highlights selected radio options
 
-- 📱 Fully responsive design (desktop & mobile)
-- 🟥 Red border validation for empty/invalid fields
-- ✅ Green highlight for selected radio buttons
-- 🧠 Custom JavaScript form validation (no browser popups)
-- ⚡ Smooth user experience
+Mobile-first and fully responsive
 
----
+Clean UI with smooth UX interactions
 
-## 🛠 Technologies Used
+🛠️ Technologies Used
+HTML5
 
-- 📝 HTML
-- 🎨 CSS (Flexbox, media queries for responsiveness)
-- 💻 JavaScript (for validation and UI behavior)
+CSS3 (Flexbox, media queries)
 
----
+JavaScript (DOM handling & form validation)
 
-##  Credits
+🖼️ Preview
+Contact form with:
 
-This project is based on a challenge from [Frontend Mentor](https://www.frontendmentor.io/).  
-Design and concept provided by Frontend Mentor.
+First name / last name inputs
 
----
+Email field
 
-## 👤 Author
+Query type radio buttons
 
-**Tanmay Sahu**  
-GitHub: [tanmaySahu1354](https://github.com/tanmaySahu1354)
+Consent checkbox
+
+Submit button
+
+📂 Folder Structure
+css
+Copy
+Edit
+contact-form/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── logo.png
+    ├── sun-icon.png
+    └── moon-icon.png
+🚀 How to Use
+bash
+Copy
+Edit
+git clone https://github.com/tanmaySahu1354/contact-form.git
+Open index.html in your browser. You're good to go!
+
+✍️ Author
+Made with 💛 by Tanmay Sahu
+
+🎨 Design Credit
+Based on the Frontend Mentor Contact Form Challenge.
+
