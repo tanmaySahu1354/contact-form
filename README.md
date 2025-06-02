@@ -40,7 +40,8 @@ contact-form/
 
 ## ✍️ Author
 
-Made with 💛 by **Tanmay Sahu**
+Made with 💛 by **Tanmay Sahu**   
+Live: https://contact-form-ts.netlify.app/
 
 ## 🎨 Design Credit
 
